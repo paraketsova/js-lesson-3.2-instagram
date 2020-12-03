@@ -68,10 +68,10 @@ function App() {
     } 
   ]
 
-  rreturn (
+  return (
     <div className="container-fluid">
       <div className=''>
-          {imagePost.map((imagePost, index) => {
+          {imageList.map((imagePost, index) => {
             return (
               <ImagePost key={index} imagePost={imagePost} />
             )
